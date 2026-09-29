@@ -1,0 +1,20 @@
+{
+  "name": "trueskill-factor-graph",
+  "version": "1.0.0",
+  "description": "TrueSkill as a factor graph with expectation propagation, plus Glicko2 and Elo baselines and a simulated league benchmark. Zero dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": {
+    "ratingbench": "bin/bench.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "bench": "node bin/bench.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["trueskill", "glicko2", "elo", "rating", "matchmaking", "factorgraph", "expectation propagation"],
+  "license": "MIT"
+}
